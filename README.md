@@ -1,4 +1,4 @@
-# COSC 1436 - Programming Fundamentals I (C++)
+# ITSE-1479 Fall 2025 (Python)
 
 This repository is where your classwork and lab assignments will go.
 
