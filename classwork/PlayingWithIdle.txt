@@ -1,0 +1,89 @@
+Python 3.12.6 (tags/v3.12.6:a4a2d2b, Sep  6 2024, 20:11:23) [MSC v.1940 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license()" for more information.
+print("Hello World")
+Hello World
+import this
+The Zen of Python, by Tim Peters
+
+Beautiful is better than ugly.
+Explicit is better than implicit.
+Simple is better than complex.
+Complex is better than complicated.
+Flat is better than nested.
+Sparse is better than dense.
+Readability counts.
+Special cases aren't special enough to break the rules.
+Although practicality beats purity.
+Errors should never pass silently.
+Unless explicitly silenced.
+In the face of ambiguity, refuse the temptation to guess.
+There should be one-- and preferably only one --obvious way to do it.
+Although that way may not be obvious at first unless you're Dutch.
+Now is better than never.
+Although never is often better than *right* now.
+If the implementation is hard to explain, it's a bad idea.
+If the implementation is easy to explain, it may be a good idea.
+Namespaces are one honking great idea -- let's do more of those!
+name = input('What is your name? ')
+What is your name? Jonah
+print(name)
+Jonah
+print("Welcome,", name)
+Welcome, Jonah
+
+# Pay Program
+hours = int input("Enter hours worked: ")
+SyntaxError: invalid syntax
+hours = input("Enter hours worked: ")
+Enter hours worked: 30
+print(hours)
+30
+hours
+'30'
+hours = float(hours)
+hours
+30.0
+pay_Rate = input("Enter pay rate: ")
+Enter pay rate: 14
+pay_Rate
+'14'
+pay_Rate = float(input("Enter pay rate: "))
+Enter pay rate: 1000.72
+pay_Rate
+1000.72
+duh = float(input("Enter a number: "))
+Enter a number: bruh
+Traceback (most recent call last):
+  File "<pyshell#19>", line 1, in <module>
+    duh = float(input("Enter a number: "))
+ValueError: could not convert string to float: 'bruh'
+total_Pay = (hours * pay_Rate)
+print(total_Pay)
+30021.600000000002
+print("$", total_Pay)
+$ 30021.600000000002
+print("Gross Income: $", total_Pay)
+Gross Income: $ 30021.600000000002
+
+# Arithmetic and Types
+width = 17
+height = 12.0
+print(width // 2, type(width // 2))
+8 <class 'int'>
+print(width / 2, type(width / 2))
+8.5 <class 'float'>
+print(height / 3, type(height / 3))
+4.0 <class 'float'>
+print(1 + 2 * 5, type(1 + 2 * 5))
+11 <class 'int'>
+print((1 + 2) * 5, type((1 + 2) * 5))
+15 <class 'int'>
+print(1.0 + 2 * 5, type(1.0 + 2 * 5))
+11.0 <class 'float'>
+
+# Temperature Conversion
+fahrenheit = float(input("Enter the temperature in Fahrenheit: "))
+Enter the temperature in Fahrenheit: 79
+celsius = ((fahrenheit - 32) / 1.8)
+print(celsius)
+26.11111111111111
