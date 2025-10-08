@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>7bc2334f-3bdd-4455-b295-af9e119f6f7a</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Homework_3.py</StartupFile>
+    <StartupFile>word_length_filter.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,7 +21,13 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Homework_3.py" />
+    <Compile Include="gradebook_analyzer.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="unique_words.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="word_length_filter.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
