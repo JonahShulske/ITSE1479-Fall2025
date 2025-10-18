@@ -4,7 +4,7 @@ October 8, 2025
 ITSE-1479 Fall 2025
 """
 
-if name == "main":
+if __name__ == "main":
     # Problem 1 - Word Length Filter
     sentence = input("Input a sentence: ")
 
