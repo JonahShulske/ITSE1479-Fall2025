@@ -23,5 +23,5 @@ for item, total in sales_total.items():
 
 sorted_sales = sorted(sales_total.items(), key=lambda x: x[1], reverse=True)
 
-for item, total in sorted_sales.items():
+for item, total in sorted_sales:
         print(f"{item}: ${total}")
