@@ -16,7 +16,12 @@ sales_total = {}
 
 for item, price, quantity in purchases:
     total = price * quantity
-    sales_total[item] = round(sales_total.get(item, 0) + total)
-    sales_total += item
+    sales_total[item] = sales_total.get(item, 0) + total
 
-print(sales_total)
+for item, total in sales_total.items():
+    print(f"{item}: ${total}")
+
+sorted_sales = sorted(sales_total.items(), key=lambda x: x[1], reverse=True)
+
+for item, total in sorted_sales.items():
+        print(f"{item}: ${total}")
